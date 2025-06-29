@@ -1,71 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Мой первый сайт</title>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    </head>    
-    <body>
-        <header class="header">
-            <div class="header-container">
-                <a  class="logo" href="#" alt="logo">
-                    <img src="./images/Frame 85.svg" alt="logo">
-                </a>
-                <nav class="navigator">
-                        <a href="#">Продукция</a>
-                        <a href="#">Материалы</a>
-                        <a href="#">О нас</a>
-                        <a href="#">Контакты</a>
-                        <div class="buttons-navigation">
-                            <button class="button-navigation" href="#" >
-                                <img src="./images/search.svg" alt="Search">
-                            </button>
-                            <button class="button-navigation" href="#">
-                                <img src="./images/log_in.svg" alt="Авторизация">
-                            </button>
-                        </div>
-                </nav>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мой первый сайт</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <a class="logo" href="#" alt="logo">
+          <img src="./images/Frame 85.svg" alt="logo" />
+        </a>
+        <nav class="navigator">
+          <a class="header_navigation-link" href="#">Продукция</a>
+          <a class="header_navigation-link" href="#">Материалы</a>
+          <a class="header_navigation-link" href="#">О нас</a>
+          <a class="header_navigation-link" href="#">Контакты</a>
+          <div class="header_buttons header_buttons--desktop">
+            <button class="header_button" href="#">
+              <img src="./images/search.svg" alt="Search" />
+            </button>
+            <button class="header_button" href="#">
+              <img src="./images/log_in.svg" alt="Авторизация" />
+            </button>
+          </div>
+        </nav>
+      </div>
 
-
-            <div class="navigation-mobile" >
-                        <a  href="#">Продукция</a>
-                        <a  href="#">Материалы</a>
-                        <a  href="#">О нас</a>
-                        <a  href="#">Контакты</a>
-                            <button class="button-menu" href="#" >
-                                <img src="./images/list.svg" alt="Menu">
-                            </button>
-                            <div class="double-button">
-                                <button class="button-navigation" href="#" >
-                                    <img src="./images/search.svg" alt="Search">
-                                </button>
-                                <button class="button-navigation" href="#">
-                                    <img src="./images/log_in.svg" alt="Авторизация">
-                                </button>
-                            </div>
-            </div>
-        </header>
-
-
-        <div class="main">
-            <div class="main-container">
-                <div class="text-main">
-                    <h1>Простые вещи.<br>Из бумаги</h1>
-                    <p>Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками. </p>
-                    <a class="main-button" href="#">Каталог</a>
-                </div>
-                <div class="image-main">
-                    <img src="./images/f8ec46f67a32e7c7f31c68aedab8ed880fc0492d.png" alt="Главная">
-                </div>
-            </div>
+      <nav class="header_navigation--mobile">
+        <a class="header_navigation-link" href="#">Продукция</a>
+        <a class="header_navigation-link" href="#">Материалы</a>
+        <a class="header_navigation-link" href="#">О нас</a>
+        <a class="header_navigation-link" href="#">Контакты</a>
+        <button class="button-menu" href="#">
+          <img src="./images/list.svg" alt="Menu" />
+        </button>
+        <div class="header_buttons header_buttons--mobile">
+          <button class="header_button" href="#">
+            <img src="./images/search.svg" alt="Search" />
+          </button>
+          <button class="header_button" href="#">
+            <img src="./images/log_in.svg" alt="Авторизация" />
+          </button>
         </div>
+      </nav>
+    </header>
 
+    <div class="main">
+      <div class="main_container">
+        <h1 class="main_title">Простые вещи. Из бумаги</h1>
+        <p class="main_text">
+          Бума́га (предположительно от итал. bombagia, первоисточником же
+          считается иранский) — волокнистый материал с минеральными добавками.
+        </p>
+        <a class="main-button" href="#">Каталог</a>
+        <img
+          class="main_image"
+          src="./images/f8ec46f67a32e7c7f31c68aedab8ed880fc0492d.png"
+          alt="Главная"
+        />
+      </div>
+    </div>
 
-
-        <div class="site-section">
+    <!--- <div class="site-section">
             <div class="top-blocks">
                 <div class="top-block">
                     <img src="./images/Buissnes Cards v2.png" alt="Образец1">
@@ -109,7 +111,7 @@
                     </p>
                 </div>
             </div>
-        </div>
-        <script src="index.js"></script>
-    </body>
+        </div>-->
+    <script src="index.js"></script>
+  </body>
 </html>
